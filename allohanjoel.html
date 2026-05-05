@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="luxeCars.css">
+    <script src="form.js"></script>
+    <title>LuxeCars</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2>Luxe<span>Cars</span></h2>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Véhicules</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <button onclick="connect()">Login</button>
+        </nav>
+
+        <main>
+            <div class="first-text-bloc">
+                <h1>Buy <span>Your Car</span> Cheaper From Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, ducimus eum quae tempora
+                    neque
+                    amet
+                    numquam nostrum aliquid obcaecati asperiores deleniti repudiandae corporis, impedit
+                    molestias
+                    cum
+                    voluptates quia. Eum, vero.</p>
+                <button>BUY NOW</button>
+            </div>
+            <div class="img">
+                <img src="image/img1.png" alt="">
+            </div>
+
+        </main>
+    </header>
+    <h3 id="section-title">Nos Vehicules</h3>
+    <section class="vehicules">
+        <div>
+            <p><img src="image/car1.jpg" alt=""></p>
+            <h4>LAMBORGHINI <Span><br>300.000$</Span></h4>
+
+            <button>ACHETER MAINTENANT</button>
+        </div>
+        <div>
+            <p><img src="image/car2.jpg" alt=""></p>
+            <h4>LAMBORGHINI <Span><br>300.000$</Span></h4>
+            <button>ACHETER MAINTENANT</button>
+        </div>
+        <div>
+            <p><img src="image/car3.jpg" alt=""></p>
+            <h4>LAMBORGHINI <Span><br>300.000$</Span></h4>
+
+            <button>ACHETER MAINTENANT</button>
+        </div>
+        <div>
+            <p><img src="image/car4.jpg" alt=""></p>
+            <h4>LAMBORGHINI <Span><br>300.000$</Span></h4>
+
+            <button>ACHETER MAINTENANT</button>
+        </div>
+        <div>
+            <p><img src="image/car5.jpg" alt=""></p>
+            <h4>LAMBORGHINI <Span><br>300.000$</Span></h4>
+
+            <button>ACHETER MAINTENANT</button>
+        </div>
+        <div>
+            <p><img src="image/car6.jpg" alt=""></p>
+            <h4>LAMBORGHINI <Span><br>300.000$</Span></h4>
+
+            <button>ACHETER MAINTENANT</button>
+        </div>
+    </section>
+    <!--Formulaire connexion début-->
+    <div class="form" id="connexion">
+        <form action="#" onsubmit="merci()">
+            <div class="form-head">
+                <h2>Connexion</h2>
+                <p>Accédez à votre espace personnel</p>
+            </div>
+
+            <div class="form-body">
+                <label for="name">Nom d'utilisateur ou Email</label>
+                <input type="text" name="name">
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp"> <br>
+                <input type="submit" value="CONNEXION">
+                <h6>Vous n'avez pas de compte ? <span><a href="#" onclick="inscription()">Créer un compte</a></span></h6>
+            </div>
+        </form>
+    </div>
+    <!--Formulaire connexion fin-->
+
+    <!--Formulaire d'inscription début-->
+    <div class="form" id="inscription">
+        <form action="#" onsubmit="bienvenue()">
+            <div class="form-head">
+                <p>Créez votre compte LuxeCars</p>
+            </div>
+
+            <div class="form-body">
+                <label for="name">Nom complet</label>
+                <input type="text" name="name">
+
+                <label for="mail">Email</label>
+                <input type="Email" name="mail">
+
+                <label for="tel">Téléphone</label>
+                <input type="tel" name="tel">
+
+
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp"> <br>
+
+
+                <input type="submit" value="CREER UN COMPTE">
+                <!-- <h6>Vous avez déjà un compte ? <span><a href="#">Connectez-vous</a></span></h6> -->
+            </div>
+        </form>
+        <div>
+            <!--Formulaire d'inscription fin-->
+
+</body>
+
+</html>
